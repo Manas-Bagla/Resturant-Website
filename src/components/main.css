@@ -1,0 +1,37 @@
+.main{
+    height: 100vh;
+background-image: url("../../public/images/main.jpg")
+}
+
+.order{
+    padding-top: 10px;
+    display: flex;
+gap: 20px;
+}
+
+.main-heading {
+    
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.main-heading h1{
+    font-size: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+@media (max-width:500px) {
+   .main-heading h1{
+    font-size: 3rem;
+   }
+   .main{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100vh;
+    background-position-x: -200px ;
+    padding-bottom: 0px;
+   }
+   .main-heading{
+    padding-left: 10px;
+   }
+}

@@ -1,0 +1,53 @@
+ .about img{
+    padding-top: 150px;
+    margin-left: 110px;
+    width: 30%;
+}
+.about{
+    display: flex;
+    gap: 200px;
+    background-color: antiquewhite;
+    padding-bottom: 150px;
+}
+.about h1{
+  padding-top: 180px;
+}
+.about-text{
+    margin-right: 100px;
+}
+.about-text h1{
+    text-decoration: underline;
+    font-family: 'Merriweather', serif;
+}
+.about-text h3{
+ padding-top: 50px;
+ font-family: 'Poppins', sans-serif;
+}
+.about h2{
+ padding-top: 100px;
+ text-decoration:overline;
+ font-family: 'Playfair Display', serif;
+}
+@media (max-width:500px) {
+    .about img{
+        padding-top: 0px;
+        display:none;
+
+    }
+    .about{
+        display: inline;
+    }
+    .about h1{
+        
+        
+        padding-top: 10px;
+    }
+    .about-text{
+        background-color: antiquewhite;
+        margin-right:0px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+       
+    }
+
+}

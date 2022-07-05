@@ -1,0 +1,47 @@
+.contact{
+    display: flex;
+    gap: 100px;
+}
+.contact-map{
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+   
+}
+.contact-map iframe{
+    width: 750px;
+    height: 700px;
+}
+.contact-text h1{
+    font-family: 'Merriweather', serif;
+}
+.contact-text{
+    padding-top: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-text form{
+    padding-top: 50px;
+}
+@media (max-width:1000px) {
+   
+    .contact-map{
+        padding-top: 50px;
+        padding-left: 10px; 
+    }
+    .contact-map iframe{
+     width: 100vw;
+     height: 100vh;
+    }
+    .contact-text{
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 50px;
+    }
+    .contact{
+        display: inline;
+        
+    }
+}

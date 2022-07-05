@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Navigation{
+    z-index: 1;
+    background-color: rgb(48, 47, 47);
+    font-size: 1.2rem;
+    padding-left:90px ;
+    padding-right: 20%;
+    
+}
+.container-fluid .navbar-brand{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color:antiquewhite;
+}
+.container-fluid ul{
+    gap: 10px;
+    color: white;
+}
+.container-fluid ul li a:hover{
+    
+    color:antiquewhite
+}
+/* .container-fluid ul li a:active{
+    
+    color: rebeccapurple
+} */
+.container-fluid ul li a{
+    color: white;
+}
+@media (max-width:500px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+}
